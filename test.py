@@ -4,7 +4,7 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 # data prepare
-df = pd.read_csv('E:\\pycode\\Semantic_Segmentation_cnn\\train\\data.csv')
+# df = pd.read_csv('E:\\pycode\\Semantic_Segmentation_cnn\\train\\data.csv')
 
 map_data = pd.DataFrame(np.random.randn(1000,2)/[50,50]+ [29.58,113.41]
 	,columns=['lat','lon'])
@@ -13,7 +13,7 @@ map_data = pd.DataFrame(np.random.randn(1000,2)/[50,50]+ [29.58,113.41]
 st.title('\tMy first app')
 
 st.write('Here is our first attempt at using data to create a table:')
-df
+# df
 
 st.header('This is a example of map:')
 st.map(map_data)
